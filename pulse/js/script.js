@@ -3,8 +3,8 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 1500,
         speed: 1000,
-        prevArrow: '<button type="button" class="slick-prev"><img src="../icons/left_arrow.svg"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="../icons/right_arrow.svg"></button>'
+        prevArrow: '<button type="button" class="slick-prev"><img src="icons/left_arrow.svg"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="icons/right_arrow.svg"></button>'
     });
 
     $('[data-modal=consultation]').on('click', function() {
